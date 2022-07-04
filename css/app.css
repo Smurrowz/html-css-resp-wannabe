@@ -1,0 +1,17 @@
+/* tablet */
+@media (max-width: 768px) {
+  .container{
+    width: 700px;
+    padding: 0;
+  }
+  .text{
+    font-size: 15px;
+  }
+  .why-us li p{
+    font-size: 15px;
+  }
+/* mobile */
+@media (max-width:480px) {
+
+  
+}

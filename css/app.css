@@ -1,17 +1,68 @@
 /* tablet */
 @media (max-width: 768px) {
-  .container{
+  .container {
     width: 700px;
     padding: 0;
   }
-  .text{
+
+  .text {
     font-size: 15px;
   }
-  .why-us li p{
+
+  .why-us li p {
     font-size: 15px;
   }
+}
+
 /* mobile */
 @media (max-width:480px) {
+  .container {
+    width: 400px;
+  }
 
-  
+  .row {
+    flex-direction: column;
+
+  }
+
+  .lessons .row {
+    gap: 40px;
+  }
+
+  .steps .row {
+    gap: 90px;
+  }
+
+  .why-us .row {
+    gap: 90px;
+  }
+
+  .lessons .col,
+  .steps .col,
+  .why-us .col-left,
+  .why-us .col-right {
+    width: 100%;
+  }
+
+  .lessons .col img,
+  .steps .col img {
+    height: 250px;
+
+  }
+
+  .text,
+  .why-us li p {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+  .why-us li {
+    margin-bottom: 60px;
+  }
 }
